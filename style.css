@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: #002339;
+  color: #fff;
+}
+
+.container {
+  box-sizing: border-box;
+  margin-left: 300px;
+  margin-top: 250px;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 900;
+  color: green;
+  text-shadow: 3px 3px 7px black;
+  letter-spacing: 2px;
+}
+hr {
+  width: 498px;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  border: 5px solid green;
+  font-size: 52px;
+  font-weight: 900;
+}
+
+span {
+  color: #ffffff;
+}
+
+input {
+  margin: 20px 0;
+  padding: 16px 20px;
+  position: relative;
+  box-shadow: 1px 1px 5px black;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  width: 700px;
+  font-weight: 600;
+}
+
+.inputDiv i {
+  position: absolute;
+  font-size: 40px;
+  width: 27px;
+  left: 950px;
+  top: 440px;
+  color: rgb(8, 79, 7);
+}
+
+button {
+  color: #fff;
+  padding: 16px 20px;
+  font-size: 20px;
+  font-weight: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 79, 7);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;
+}
+
+button i {
+  width: 27px;
+}
